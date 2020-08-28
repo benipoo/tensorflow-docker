@@ -1,4 +1,4 @@
-# Easiest path to start learning Tensorflow for machine learning using Ubuntu 20.04
+# Easiest path to start learning Tensorflow with Python for machine learning on Ubuntu 20.04
 
 In the interest of reliablity, I will be running a Jupyter Notebook server inside a Docker container, this is the way I currently develop my projects. It ensures a reproducible work environment because the Docker container isolates the Tensorflow installation from the local system. I use Jupyter Notebook because it provies an easy way to move files and view graphical outputs. For linux, Docker also provides the easiest way to utilize the GPU potential in Tensorflow, since a local installation of CUDA is not required.
 
@@ -43,3 +43,11 @@ $ sudo docker run \
 	-v $(realpath ~/your/local/directory/for/notebookfiles):/tf/notebooks \
 	image_name
 ```
+
+If everything is working correctly, the run command will give a link to the Jupyter Notebook hosted in the browser. From there, you should see a folder named tensorflow-tutorials and a second folder with the name you gave in the run command. You wont be able to modify any files in the local directory, all file modifications and uploads are done in Jupyter Notebook.
+
+Now when you import dependencies in your Python code it should run as expected.
+
+
+
+
