@@ -8,5 +8,6 @@ COPY requirements.txt /tmp/
 # Ensure pip is updated
 RUN python3 -m pip install --upgrade pip
 
-# Install dependencies listed in the tex file
+# Install dependencies listed in the text file
 RUN pip install -r /tmp/requirements.txt
+
