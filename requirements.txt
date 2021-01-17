@@ -1,3 +1,10 @@
 mnist 
 gym
+numpy
+matplotlib
+nltk
+pandas
+scikit-learn
+seaborn
+scipy
 sklearn
