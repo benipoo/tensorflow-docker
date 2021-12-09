@@ -8,3 +8,4 @@ scikit-learn
 seaborn
 scipy
 sklearn
+pytorch
