@@ -8,6 +8,6 @@ scikit-learn
 seaborn
 scipy
 sklearn
-pytorch
-re
+torch
 bs4
+spacy
