@@ -9,3 +9,5 @@ seaborn
 scipy
 sklearn
 pytorch
+re
+bs4
